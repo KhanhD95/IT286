@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: 8185b3c933d22964a92a1c46ce804655
+timeCreated: 1519756356
+licenseType: Free
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: TudorWall_out_Graph
+    prototypeName: TudorWall_out_Graph
+    shaderName: 
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+    renderQueue: -1
+    lightmapFlags: 4
+    inputs:
+    - name: $normalformat
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $randomseed
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: var
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: contr_window
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: light
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: color_light
+      value:
+        scalar[0]: 0.94902
+        scalar[1]: 0.844816
+        scalar[2]: 0.427985
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: glow_amount
+      value:
+        scalar[0]: 0.47
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: brick_wall
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: only_adobe
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: mask_Brick
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: worn_plaster_rand_spot
+      value:
+        scalar[0]: 2
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: worn_plaster_Min
+      value:
+        scalar[0]: 5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: worn_plaster_max
+      value:
+        scalar[0]: 5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: worn_plaster_below
+      value:
+        scalar[0]: 0.16
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_color_wood
+      value:
+        scalar[0]: 0.435294
+        scalar[1]: 0.419608
+        scalar[2]: 0.380392
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: bm_color_clean_wood
+      value:
+        scalar[0]: 0.560784
+        scalar[1]: 0.52549
+        scalar[2]: 0.45098
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: bm_clean_int_wood
+      value:
+        scalar[0]: 0.64
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_fiber_var_wood
+      value:
+        scalar[0]: 3
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_fiber_norm
+      value:
+        scalar[0]: 0.3
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_sat_color_wood
+      value:
+        scalar[0]: 0.21
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_rough_wood
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_damage_wood
+      value:
+        scalar[0]: 0.21
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_nor_inten_wood
+      value:
+        scalar[0]: 0.02
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_put_int_wood
+      value:
+        scalar[0]: 0.51
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_cr_am_wood
+      value:
+        scalar[0]: 20
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_cr_len_wood
+      value:
+        scalar[0]: 0.83
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_cr_wid_wood
+      value:
+        scalar[0]: 0.06
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_cr_ran_warp_wood
+      value:
+        scalar[0]: 5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_cr_nor_int_wood
+      value:
+        scalar[0]: 3.1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_moss_wood
+      value:
+        scalar[0]: 0.12
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_moss_bal_mask_wood
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_dirt_int_plaster
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_cracks_intensity_plaster
+      value:
+        scalar[0]: 0.04
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_mid_norm_plaster
+      value:
+        scalar[0]: 2
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_high_normal_plaster
+      value:
+        scalar[0]: 0.2
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_color_clay_adobe
+      value:
+        scalar[0]: 0.584314
+        scalar[1]: 0.533333
+        scalar[2]: 0.478431
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: bm_color_spot_adobe
+      value:
+        scalar[0]: 0.85098
+        scalar[1]: 0.792157
+        scalar[2]: 0.717647
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: bm_int_spot
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_int_surf_det_adobe
+      value:
+        scalar[0]: 0.45
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_srtaw_am_adobe
+      value:
+        scalar[0]: 166
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_color_straw_adobe
+      value:
+        scalar[0]: 0.992157
+        scalar[1]: 0.858824
+        scalar[2]: 0.458824
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: bm_lar_cr_amX_adobe
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_lar_cr_amY_adobe
+      value:
+        scalar[0]: 2
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_lc_width_adobe
+      value:
+        scalar[0]: 0.0001
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_lc_warp_adobe
+      value:
+        scalar[0]: 0.29
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_lc_slope_adobe
+      value:
+        scalar[0]: 0.41
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_lc_size_mask_adobe
+      value:
+        scalar[0]: 3
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_lc_random_mask_adobe
+      value:
+        scalar[0]: 6.44
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_SM_amX_adobe
+      value:
+        scalar[0]: 7
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_SM_amY_adobe
+      value:
+        scalar[0]: 6
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_SC_width_adobe
+      value:
+        scalar[0]: 0.005
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_SC_warp_adobe
+      value:
+        scalar[0]: 0.16
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_SC_slope_adobe
+      value:
+        scalar[0]: 0.11
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_SC_mask_size_adobe
+      value:
+        scalar[0]: 2
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_SC_random_mask_adobe
+      value:
+        scalar[0]: 11.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_low_adobe
+      value:
+        scalar[0]: 1.13
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_mid_adobe
+      value:
+        scalar[0]: 1.9
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_high_adobe
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_straw_adobe
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_cracks_adobe
+      value:
+        scalar[0]: 3.45
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_pattern_amX_brick
+      value:
+        scalar[0]: 12
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_pattern_amY_brick
+      value:
+        scalar[0]: 17
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_pat_offset_brick
+      value:
+        scalar[0]: 0.31
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_pat_random_offs_brick
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_pat_seam_brick
+      value:
+        scalar[0]: 1.04
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_pat_seam_rond_brick
+      value:
+        scalar[0]: 3
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_pat_dam_int_brick
+      value:
+        scalar[0]: 2.41
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_pat_dam_rand_seed_brick
+      value:
+        scalar[0]: 2
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_sur_dam_int_brick
+      value:
+        scalar[0]: 1.61
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_toon_brick
+      value:
+        scalar[0]: 0.588235
+        scalar[1]: 0.560784
+        scalar[2]: 0.490196
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: bm_colA_brick
+      value:
+        scalar[0]: 0.611765
+        scalar[1]: 0.560784
+        scalar[2]: 0.490196
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: bm_colB_brick
+      value:
+        scalar[0]: 0.45098
+        scalar[1]: 0.466667
+        scalar[2]: 0.498039
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: bm_pebb_amX_brick
+      value:
+        scalar[0]: 9
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_peb_amY_brick
+      value:
+        scalar[0]: 16
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_sc_rand_brick
+      value:
+        scalar[0]: 0.17
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_dirt_brick
+      value:
+        scalar[0]: 0.06
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_low_brick
+      value:
+        scalar[0]: 4.87
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_mid_brick
+      value:
+        scalar[0]: 2.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_highA_brick
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_highB_brick
+      value:
+        scalar[0]: 0.5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_norm_peb_brick
+      value:
+        scalar[0]: 4.42
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: bm_rough_brick
+      value:
+        scalar[0]: 0.33
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: norm_wood_shape
+      value:
+        scalar[0]: 1.97
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: normal_wood_shape_slope
+      value:
+        scalar[0]: 5.42
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: normal_stucco
+      value:
+        scalar[0]: 0.74
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: normal_mask_brick
+      value:
+        scalar[0]: 1.84
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: height_wood_shape
+      value:
+        scalar[0]: 0.06
+        scalar[1]: 0
+        scalar[2]: 0.51
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: global_op_H_wood
+      value:
+        scalar[0]: 0.36
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: height_stucco_shape
+      value:
+        scalar[0]: 0.16
+        scalar[1]: 0.04
+        scalar[2]: 0.07
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: global_op_H_stucco
+      value:
+        scalar[0]: 0.82
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: ao_spread
+      value:
+        scalar[0]: 0.03
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: ao_equalizer
+      value:
+        scalar[0]: -0.15
+        scalar[1]: -0.69
+        scalar[2]: -0.01
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: ao_level
+      value:
+        scalar[0]: 0.05
+        scalar[1]: 0.5
+        scalar[2]: 1
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: norm_form
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 42
+    materialProperties:
+      serializedVersion: 3
+      texEnvs:
+      - _BumpMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _DetailAlbedoMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _DetailMask:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _DetailNormalMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _EmissionMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _MainTex:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _MetallicGlossMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _OcclusionMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _ParallaxMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      floats:
+      - _BumpScale: 1
+      - _Cutoff: 0.5
+      - _DetailNormalMapScale: 1
+      - _DstBlend: 0
+      - _GlossMapScale: 1
+      - _Glossiness: 0.5
+      - _GlossyReflections: 1
+      - _Metallic: 0
+      - _Mode: 0
+      - _OcclusionStrength: 1
+      - _Parallax: 0.02
+      - _SmoothnessTextureChannel: 0
+      - _SpecularHighlights: 1
+      - _SrcBlend: 1
+      - _UVSec: 0
+      - _ZWrite: 1
+      colors:
+      - _Color: {r: 1, g: 1, b: 1, a: 1}
+      - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    textureParameters:
+    - name: TudorWall_out_Graph_baseColor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: TudorWall_out_Graph_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: TudorWall_out_Graph_metallic
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: TudorWall_out_Graph_ambientOcclusion
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: TudorWall_out_Graph_emissive
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: TudorWall_out_Graph_height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp: _MainTex
+      material: {instanceID: 0}
+      baseUID: 2053467064
+    - shaderProp: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 2053467072
+    - shaderProp: _EmissionMap
+      material: {instanceID: 0}
+      baseUID: 2054035068
+    - shaderProp: _MetallicGlossMap
+      material: {instanceID: 0}
+      baseUID: 2053467080
+    - shaderProp: _OcclusionMap
+      material: {instanceID: 0}
+      baseUID: 2053466678
+    - shaderProp: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 2053467084
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
