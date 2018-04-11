@@ -8,15 +8,17 @@ public class Shooter : MonoBehaviour
     [SerializeField]Projectile projectile;
     [SerializeField] AudioController audioFire;
     [SerializeField] AudioController audioReload;
-
-    [HideInInspector]
-    public Transform muzzle;
-
+    [SerializeField] Transform hand;
+  
+  
     public WeaponReloader Reloader;
+
+   Transform muzzle;
 
     float nextFireAllowed;
    public  bool canFire;
 
+  
     void Awake()
     {
         muzzle = transform.Find("Muzzle");
@@ -25,6 +27,10 @@ public class Shooter : MonoBehaviour
 
     }
 
+    void Start()
+    {
+        transform.SetParent(hand);
+    }
 
 
     public void  Reload()

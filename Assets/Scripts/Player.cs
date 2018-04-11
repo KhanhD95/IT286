@@ -103,7 +103,7 @@ public class Player : MonoBehaviour
         Vector2 direction = new Vector2(playerInput.Vertical * moveSpeed, playerInput.Horizontal * moveSpeed);
 
         MoveController.Move(direction);
-        if (Vector3.Distance(transform.position, previousPosition) > minimumMoveThreshold)
+        if (Vector2.Distance(transform.position, previousPosition) > minimumMoveThreshold)
             footSteps.Play();
 
         previousPosition = transform.position;
@@ -119,4 +119,13 @@ public class Player : MonoBehaviour
         Crosshair.LookHeight(mouseInput.y * MouseControl.Sensitivity.y);
 
     }
+
+     void OnCollisionEnter(Collision collision)
+    {
+        float moveSpeed = runSpeed;
+        if (collision.gameObject.tag == "Buildings")
+            moveSpeed = 0;
+            
+    }
+
 }

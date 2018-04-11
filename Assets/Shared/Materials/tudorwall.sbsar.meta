@@ -3,6 +3,7 @@ guid: 8185b3c933d22964a92a1c46ce804655
 timeCreated: 1519756356
 licenseType: Free
 SubstanceImporter:
+  externalObjects: {}
   serializedVersion: 5
   materialInstances:
   - serializedVersion: 16
@@ -21,6 +22,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: $outputsize
       value:
         scalar[0]: 8
@@ -28,6 +30,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: $randomseed
       value:
         scalar[0]: 0
@@ -35,6 +38,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: var
       value:
         scalar[0]: 1
@@ -42,6 +46,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: contr_window
       value:
         scalar[0]: 1
@@ -49,6 +54,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: light
       value:
         scalar[0]: 0
@@ -56,6 +62,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: color_light
       value:
         scalar[0]: 0.94902
@@ -63,6 +70,7 @@ SubstanceImporter:
         scalar[2]: 0.427985
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: glow_amount
       value:
         scalar[0]: 0.47
@@ -70,6 +78,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: brick_wall
       value:
         scalar[0]: 0
@@ -77,6 +86,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: only_adobe
       value:
         scalar[0]: 0
@@ -84,6 +94,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: mask_Brick
       value:
         scalar[0]: 1
@@ -91,6 +102,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: worn_plaster_rand_spot
       value:
         scalar[0]: 2
@@ -98,6 +110,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: worn_plaster_Min
       value:
         scalar[0]: 5
@@ -105,6 +118,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: worn_plaster_max
       value:
         scalar[0]: 5
@@ -112,6 +126,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: worn_plaster_below
       value:
         scalar[0]: 0.16
@@ -119,6 +134,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_color_wood
       value:
         scalar[0]: 0.435294
@@ -126,6 +142,7 @@ SubstanceImporter:
         scalar[2]: 0.380392
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_color_clean_wood
       value:
         scalar[0]: 0.560784
@@ -133,6 +150,7 @@ SubstanceImporter:
         scalar[2]: 0.45098
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_clean_int_wood
       value:
         scalar[0]: 0.64
@@ -140,6 +158,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_fiber_var_wood
       value:
         scalar[0]: 3
@@ -147,6 +166,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_fiber_norm
       value:
         scalar[0]: 0.3
@@ -154,6 +174,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_sat_color_wood
       value:
         scalar[0]: 0.21
@@ -161,6 +182,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_rough_wood
       value:
         scalar[0]: 1
@@ -168,6 +190,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_damage_wood
       value:
         scalar[0]: 0.21
@@ -175,6 +198,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_nor_inten_wood
       value:
         scalar[0]: 0.02
@@ -182,6 +206,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_put_int_wood
       value:
         scalar[0]: 0.51
@@ -189,6 +214,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_cr_am_wood
       value:
         scalar[0]: 20
@@ -196,6 +222,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_cr_len_wood
       value:
         scalar[0]: 0.83
@@ -203,6 +230,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_cr_wid_wood
       value:
         scalar[0]: 0.06
@@ -210,6 +238,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_cr_ran_warp_wood
       value:
         scalar[0]: 5
@@ -217,6 +246,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_cr_nor_int_wood
       value:
         scalar[0]: 3.1
@@ -224,6 +254,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_moss_wood
       value:
         scalar[0]: 0.12
@@ -231,6 +262,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_moss_bal_mask_wood
       value:
         scalar[0]: 0.5
@@ -238,6 +270,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_dirt_int_plaster
       value:
         scalar[0]: 1
@@ -245,6 +278,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_cracks_intensity_plaster
       value:
         scalar[0]: 0.04
@@ -252,6 +286,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_mid_norm_plaster
       value:
         scalar[0]: 2
@@ -259,6 +294,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_high_normal_plaster
       value:
         scalar[0]: 0.2
@@ -266,6 +302,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_color_clay_adobe
       value:
         scalar[0]: 0.584314
@@ -273,6 +310,7 @@ SubstanceImporter:
         scalar[2]: 0.478431
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_color_spot_adobe
       value:
         scalar[0]: 0.85098
@@ -280,6 +318,7 @@ SubstanceImporter:
         scalar[2]: 0.717647
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_int_spot
       value:
         scalar[0]: 1
@@ -287,6 +326,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_int_surf_det_adobe
       value:
         scalar[0]: 0.45
@@ -294,6 +334,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_srtaw_am_adobe
       value:
         scalar[0]: 166
@@ -301,6 +342,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_color_straw_adobe
       value:
         scalar[0]: 0.992157
@@ -308,6 +350,7 @@ SubstanceImporter:
         scalar[2]: 0.458824
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_lar_cr_amX_adobe
       value:
         scalar[0]: 1
@@ -315,6 +358,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_lar_cr_amY_adobe
       value:
         scalar[0]: 2
@@ -322,6 +366,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_lc_width_adobe
       value:
         scalar[0]: 0.0001
@@ -329,6 +374,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_lc_warp_adobe
       value:
         scalar[0]: 0.29
@@ -336,6 +382,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_lc_slope_adobe
       value:
         scalar[0]: 0.41
@@ -343,6 +390,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_lc_size_mask_adobe
       value:
         scalar[0]: 3
@@ -350,6 +398,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_lc_random_mask_adobe
       value:
         scalar[0]: 6.44
@@ -357,6 +406,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_SM_amX_adobe
       value:
         scalar[0]: 7
@@ -364,6 +414,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_SM_amY_adobe
       value:
         scalar[0]: 6
@@ -371,6 +422,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_SC_width_adobe
       value:
         scalar[0]: 0.005
@@ -378,6 +430,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_SC_warp_adobe
       value:
         scalar[0]: 0.16
@@ -385,6 +438,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_SC_slope_adobe
       value:
         scalar[0]: 0.11
@@ -392,6 +446,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_SC_mask_size_adobe
       value:
         scalar[0]: 2
@@ -399,6 +454,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_SC_random_mask_adobe
       value:
         scalar[0]: 11.5
@@ -406,6 +462,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_low_adobe
       value:
         scalar[0]: 1.13
@@ -413,6 +470,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_mid_adobe
       value:
         scalar[0]: 1.9
@@ -420,6 +478,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_high_adobe
       value:
         scalar[0]: 0.5
@@ -427,6 +486,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_straw_adobe
       value:
         scalar[0]: 0.5
@@ -434,6 +494,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_cracks_adobe
       value:
         scalar[0]: 3.45
@@ -441,6 +502,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_pattern_amX_brick
       value:
         scalar[0]: 12
@@ -448,6 +510,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_pattern_amY_brick
       value:
         scalar[0]: 17
@@ -455,6 +518,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_pat_offset_brick
       value:
         scalar[0]: 0.31
@@ -462,6 +526,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_pat_random_offs_brick
       value:
         scalar[0]: 1
@@ -469,6 +534,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_pat_seam_brick
       value:
         scalar[0]: 1.04
@@ -476,6 +542,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_pat_seam_rond_brick
       value:
         scalar[0]: 3
@@ -483,6 +550,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_pat_dam_int_brick
       value:
         scalar[0]: 2.41
@@ -490,6 +558,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_pat_dam_rand_seed_brick
       value:
         scalar[0]: 2
@@ -497,6 +566,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_sur_dam_int_brick
       value:
         scalar[0]: 1.61
@@ -504,6 +574,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_toon_brick
       value:
         scalar[0]: 0.588235
@@ -511,6 +582,7 @@ SubstanceImporter:
         scalar[2]: 0.490196
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_colA_brick
       value:
         scalar[0]: 0.611765
@@ -518,6 +590,7 @@ SubstanceImporter:
         scalar[2]: 0.490196
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_colB_brick
       value:
         scalar[0]: 0.45098
@@ -525,6 +598,7 @@ SubstanceImporter:
         scalar[2]: 0.498039
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_pebb_amX_brick
       value:
         scalar[0]: 9
@@ -532,6 +606,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_peb_amY_brick
       value:
         scalar[0]: 16
@@ -539,6 +614,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_sc_rand_brick
       value:
         scalar[0]: 0.17
@@ -546,6 +622,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_dirt_brick
       value:
         scalar[0]: 0.06
@@ -553,6 +630,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_low_brick
       value:
         scalar[0]: 4.87
@@ -560,6 +638,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_mid_brick
       value:
         scalar[0]: 2.5
@@ -567,6 +646,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_highA_brick
       value:
         scalar[0]: 0.5
@@ -574,6 +654,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_highB_brick
       value:
         scalar[0]: 0.5
@@ -581,6 +662,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_norm_peb_brick
       value:
         scalar[0]: 4.42
@@ -588,6 +670,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: bm_rough_brick
       value:
         scalar[0]: 0.33
@@ -595,6 +678,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: norm_wood_shape
       value:
         scalar[0]: 1.97
@@ -602,6 +686,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: normal_wood_shape_slope
       value:
         scalar[0]: 5.42
@@ -609,6 +694,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: normal_stucco
       value:
         scalar[0]: 0.74
@@ -616,6 +702,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: normal_mask_brick
       value:
         scalar[0]: 1.84
@@ -623,6 +710,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: height_wood_shape
       value:
         scalar[0]: 0.06
@@ -630,6 +718,7 @@ SubstanceImporter:
         scalar[2]: 0.51
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: global_op_H_wood
       value:
         scalar[0]: 0.36
@@ -637,6 +726,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: height_stucco_shape
       value:
         scalar[0]: 0.16
@@ -644,6 +734,7 @@ SubstanceImporter:
         scalar[2]: 0.07
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: global_op_H_stucco
       value:
         scalar[0]: 0.82
@@ -651,6 +742,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: ao_spread
       value:
         scalar[0]: 0.03
@@ -658,6 +750,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: ao_equalizer
       value:
         scalar[0]: -0.15
@@ -665,6 +758,7 @@ SubstanceImporter:
         scalar[2]: -0.01
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: ao_level
       value:
         scalar[0]: 0.05
@@ -672,6 +766,7 @@ SubstanceImporter:
         scalar[2]: 1
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: norm_form
       value:
         scalar[0]: 0
@@ -679,6 +774,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}

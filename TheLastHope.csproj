@@ -343,6 +343,7 @@
     <Compile Include="Assets\Scripts\WeaponReloader.cs" />
     <Compile Include="Assets\Shared\AudioController.cs" />
     <Compile Include="Assets\Shared\Container.cs" />
+    <Compile Include="Assets\Shared\DayNight.cs" />
     <Compile Include="Assets\Shared\Destructable.cs" />
     <Compile Include="Assets\Shared\GameManager.cs" />
     <Compile Include="Assets\Shared\InputManager.cs" />

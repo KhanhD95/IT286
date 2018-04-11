@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: f844576ef4f17934e8ff6e7453b25a3f
+labels:
+- Mesh
 timeCreated: 1520989590
 licenseType: Free
 ModelImporter:
@@ -159,7 +161,17 @@ ModelImporter:
     9500000: //RootNode
     13700000: Soldier_body
     13700002: Soldier_head
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soldier_body1
+    second: {fileID: 2100000, guid: c2ebcf09fae3a364b9b97caadd6b0017, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soldier_head6
+    second: {fileID: 2100000, guid: c2ebcf09fae3a364b9b97caadd6b0017, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -191,7 +203,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
