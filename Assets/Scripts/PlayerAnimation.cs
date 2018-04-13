@@ -21,7 +21,10 @@ public class PlayerAnimation : MonoBehaviour
 
         animator.SetBool("IsWalking", GameManager.Instance.InputController.IsWalking);
         animator.SetBool("IsSprinting", GameManager.Instance.InputController.IsSprinting);
-        animator.SetBool("IsJumping", GameManager.Instance.InputController.isJumping);
+       // animator.SetBool("IsJumping", GameManager.Instance.InputController.isJumping);
+        animator.SetBool("IsGrounded", GameManager.Instance.LocalPlayer.grounded);
+        if(GameManager.Instance.InputController.isJumping)
+            animator.SetTrigger("IsJumping");
 
     }
 }

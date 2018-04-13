@@ -18,6 +18,7 @@ public class GameManager
                 m_Instance.gameObject.AddComponent<InputController>();
                 m_Instance.gameObject.AddComponent<Timer>();
                 m_Instance.gameObject.AddComponent<Respawner>();
+                //m_Instance.gameObject.AddComponent<Player>();
             }
             return m_Instance;
         }
@@ -55,13 +56,6 @@ public class GameManager
             return m_Respawner;
         }
     }
-
-
-
-
-
-
-
 
     private Player m_LocalPlayer;
     public Player LocalPlayer

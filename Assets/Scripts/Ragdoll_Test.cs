@@ -7,6 +7,7 @@ public class Ragdoll_Test : Destructable
     public Animator animator;
     private Rigidbody[] bodyParts;
     private MoveController moveController;
+    public GameObject ammoDrop;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class Ragdoll_Test : Destructable
         base.Die();
         EnableRagdoll(true);
         animator.enabled = false;
+        Instantiate(ammoDrop, transform.position, Quaternion.identity); //your dropped ammo item
     }
 
     void Update()
@@ -39,6 +41,13 @@ public class Ragdoll_Test : Destructable
             bodyParts[i].isKinematic = !value;
         }
     }
+
+    
+  /* void OnDestroy() //called, when enemy will be destroyed
+    {
+        Instantiate(ammoDrop,transform.position,Quaternion.identity); //your dropped item
+
+    }*/
 
 
 }

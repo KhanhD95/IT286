@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
      [System.Serializable]
      public class MouseInput
      {
@@ -19,8 +20,11 @@ public class Player : MonoBehaviour
     [SerializeField] float sprintSpeed;
     [SerializeField] float crouchSpeed;
     [SerializeField] float jumpSpeed = 10f;
-    [SerializeField] float jumpForce = 8f;
+    [SerializeField] float jumpForce = 30f;
     [SerializeField] float gravity = 30f;
+    public bool grounded;
+    public new Rigidbody rigidbody;
+
     [SerializeField] AudioController footSteps;
     [SerializeField] float minimumMoveThreshold;
     [SerializeField]MouseInput MouseControl;
@@ -86,8 +90,13 @@ public class Player : MonoBehaviour
 
         LookAround();
 
-       
-	}
+        if (GameManager.Instance.InputController.isJumping)
+            Jump();
+
+
+
+
+    }
 
     void Move()
     {
@@ -120,12 +129,38 @@ public class Player : MonoBehaviour
 
     }
 
-     void OnCollisionEnter(Collision collision)
+    void Jump()
+    {
+        if (!grounded)
+            return;
+        rigidbody.AddForce(transform.up * jumpForce);
+        
+        
+    }
+
+   /*void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            grounded = true;
+    }*/
+
+    void OnCollisionExit(Collision collision)
+    {
+        
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            grounded = false;
+
+    }
+
+
+    void OnCollisionEnter(Collision collision)
     {
         float moveSpeed = runSpeed;
         if (collision.gameObject.tag == "Buildings")
             moveSpeed = 0;
-            
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            grounded = true;
+
     }
 
 }
