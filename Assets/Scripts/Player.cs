@@ -1,37 +1,41 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[RequireComponent (typeof(MoveController))]
+
+[RequireComponent(typeof(MoveController))]
+[RequireComponent(typeof(PlayerState))]
 
 public class Player : MonoBehaviour
 {
 
-     [System.Serializable]
-     public class MouseInput
-     {
+    [System.Serializable]
+    public class MouseInput
+    {
         public Vector2 Damping;
         public Vector2 Sensitivity;
-        public bool LockMouse; 
+        public bool LockMouse;
 
-     }
+    }
 
-    [SerializeField]float runSpeed;
+    [SerializeField] float runSpeed;
     [SerializeField] float walkSpeed;
     [SerializeField] float sprintSpeed;
     [SerializeField] float crouchSpeed;
     [SerializeField] float jumpSpeed = 10f;
     [SerializeField] float jumpForce = 30f;
     [SerializeField] float gravity = 30f;
+
     public bool grounded;
     public new Rigidbody rigidbody;
+    public PlayerAim playerAim;
 
     [SerializeField] AudioController footSteps;
     [SerializeField] float minimumMoveThreshold;
-    [SerializeField]MouseInput MouseControl;
+    [SerializeField] MouseInput MouseControl;
 
     Vector3 previousPosition;
 
-   private MoveController m_moveController;
+    private MoveController m_moveController;
     public MoveController MoveController
     {
         get
@@ -53,18 +57,18 @@ public class Player : MonoBehaviour
         }
     }
 
-    private Crosshair m_Crosshair;
-    private Crosshair Crosshair
+
+    private PlayerState m_PlayerState;
+    public PlayerState PlayerState
     {
         get
         {
-            if (m_Crosshair == null)
-                m_Crosshair = GetComponentInChildren<Crosshair>();
-            return m_Crosshair;
+            if (m_PlayerState == null)
+                m_PlayerState = GetComponent<PlayerState>();
+            return m_PlayerState;
         }
     }
-
-   
+    
 
     InputController playerInput;
     Vector2 mouseInput;
@@ -125,8 +129,8 @@ public class Player : MonoBehaviour
 
         transform.Rotate(Vector3.up * mouseInput.x * MouseControl.Sensitivity.x);
 
-        Crosshair.LookHeight(mouseInput.y * MouseControl.Sensitivity.y);
-
+        //Crosshair.LookHeight(mouseInput.y * MouseControl.Sensitivity.y);
+        playerAim.SetRotation(mouseInput.y * MouseControl.Sensitivity.y);
     }
 
     void Jump()

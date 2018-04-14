@@ -30,7 +30,12 @@ public class PlayerShoot : MonoBehaviour
 
     void Update()
     {
-        if(GameManager.Instance.InputController.Fire1)
+
+
+        if (GameManager.Instance.LocalPlayer.PlayerState.MoveState == PlayerState.EMoveState.SPRINTING)
+            return;
+
+        if (GameManager.Instance.InputController.Fire1)
         {
             activeWeapon.Fire();
         }
