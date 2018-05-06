@@ -328,11 +328,14 @@
     <Compile Include="Assets\Scripts\AmmoPickup.cs" />
     <Compile Include="Assets\Scripts\AssaultRifle.cs" />
     <Compile Include="Assets\Scripts\Crosshair.cs" />
+    <Compile Include="Assets\Scripts\DoorScript.cs" />
     <Compile Include="Assets\Scripts\EWeaponType.cs" />
+    <Compile Include="Assets\Scripts\FlickeringLights.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\InputController.cs" />
     <Compile Include="Assets\Scripts\InputOptions.cs" />
     <Compile Include="Assets\Scripts\MoveController.cs" />
+    <Compile Include="Assets\Scripts\PickUpLog.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerAim.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
@@ -349,10 +352,12 @@
     <Compile Include="Assets\Shared\Destructable.cs" />
     <Compile Include="Assets\Shared\GameManager.cs" />
     <Compile Include="Assets\Shared\InputManager.cs" />
+    <Compile Include="Assets\Shared\InvetoryManager.cs" />
     <Compile Include="Assets\Shared\KeyBind.cs" />
     <Compile Include="Assets\Shared\MainMenu.cs" />
     <Compile Include="Assets\Shared\PickUpItem.cs" />
     <Compile Include="Assets\Shared\Projectile.cs" />
+    <Compile Include="Assets\Shared\PushPhysics.cs" />
     <Compile Include="Assets\Shared\Respawner.cs" />
     <Compile Include="Assets\Shared\Scanner.cs" />
     <Compile Include="Assets\Shared\Shooter.cs" />

@@ -3,6 +3,7 @@ guid: e606adcec527c9943a74a0359b062137
 timeCreated: 1520358066
 licenseType: Free
 SubstanceImporter:
+  externalObjects: {}
   serializedVersion: 5
   materialInstances:
   - serializedVersion: 16
@@ -10,7 +11,7 @@ SubstanceImporter:
     prototypeName: moorish_door
     shaderName: 
     shader: {fileID: 4800000, guid: 3a6e79a67e3129f409bae52acc3ab06b, type: 3}
-    shaderKeywords: 
+    shaderKeywords: _NORMALMAP
     renderQueue: -1
     lightmapFlags: 4
     inputs:
@@ -21,6 +22,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: $outputsize
       value:
         scalar[0]: 8
@@ -28,6 +30,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: $randomseed
       value:
         scalar[0]: 0
@@ -35,6 +38,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: color_tile_top
       value:
         scalar[0]: 0.27451
@@ -42,6 +46,7 @@ SubstanceImporter:
         scalar[2]: 0.494118
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: dirt
       value:
         scalar[0]: 0.75
@@ -49,6 +54,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: erosion_tile_top_level
       value:
         scalar[0]: 0.4609
@@ -56,6 +62,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: erosion_tile_top_intensity
       value:
         scalar[0]: 0.490196
@@ -63,6 +70,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: color_cer_a
       value:
         scalar[0]: 0.101961
@@ -70,6 +78,7 @@ SubstanceImporter:
         scalar[2]: 0.596078
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: color_cer_b
       value:
         scalar[0]: 0.156863
@@ -77,6 +86,7 @@ SubstanceImporter:
         scalar[2]: 0.588235
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: color_cer_c
       value:
         scalar[0]: 0.815686
@@ -84,6 +94,7 @@ SubstanceImporter:
         scalar[2]: 0.0156863
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: color_cer_d
       value:
         scalar[0]: 0.835294
@@ -91,6 +102,7 @@ SubstanceImporter:
         scalar[2]: 0.835294
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: brick_tile
       value:
         scalar[0]: 4
@@ -98,6 +110,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: door_paint_peel
       value:
         scalar[0]: 0.391304
@@ -105,6 +118,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: door_color
       value:
         scalar[0]: 0.157778
@@ -112,6 +126,7 @@ SubstanceImporter:
         scalar[2]: 0.447059
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: door_metal_color
       value:
         scalar[0]: 0.462745
@@ -119,6 +134,7 @@ SubstanceImporter:
         scalar[2]: 0.390158
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: door_pin_color
       value:
         scalar[0]: 0.435294
@@ -126,6 +142,7 @@ SubstanceImporter:
         scalar[2]: 0.0870527
         scalar[3]: 1
         texture: {instanceID: 0}
+        stringvalue: 
     - name: door_deco_hue
       value:
         scalar[0]: 0.5
@@ -133,6 +150,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: door_deco_saturation
       value:
         scalar[0]: 0.11
@@ -140,6 +158,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     - name: door_deco_lightness
       value:
         scalar[0]: 0.6
@@ -147,6 +166,7 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+        stringvalue: 
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
@@ -170,11 +190,11 @@ SubstanceImporter:
       - _Cutoff: 0.5
       - _DetailNormalMapScale: 1
       - _DstBlend: 0
-      - _Gloss: 0.8
+      - _Gloss: 1
       - _GlossMapScale: 1
       - _Glossiness: 0.5
       - _GlossyReflections: 1
-      - _Metallic: 0
+      - _Metallic: 0.32
       - _Mode: 0
       - _OcclusionStrength: 1
       - _Parallax: 0.02

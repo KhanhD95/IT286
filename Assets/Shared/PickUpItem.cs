@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PickUpItem : MonoBehaviour
 {
+    //private InvetoryManager ManageScript;
+
+
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.tag != "Player")
@@ -22,6 +25,17 @@ public class PickUpItem : MonoBehaviour
     {
         OnPickup(item);
     }
+
+    /*public void Update()
+    {
+        Destroy(gameObject);
+
+        ManageScript = GameObject.Find("Player").GetComponent<InvetoryManager>();
+
+        ManageScript.logCollected = true;
+    }*/
+
+
 
 
 }
