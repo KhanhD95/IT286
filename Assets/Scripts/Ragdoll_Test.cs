@@ -8,6 +8,7 @@ public class Ragdoll_Test : Destructable
     private Rigidbody[] bodyParts;
     private MoveController moveController;
     public GameObject ammoDrop;
+    public HealthBar healthBar;
 
     void Start()
     {
@@ -31,6 +32,7 @@ public class Ragdoll_Test : Destructable
 
         animator.SetFloat("Vertical", 1);
         moveController.Move(new Vector2(1, 0));
+
     }
 
 
@@ -42,12 +44,18 @@ public class Ragdoll_Test : Destructable
         }
     }
 
-    
-  /* void OnDestroy() //called, when enemy will be destroyed
+    void OnTriggerEnter(Collider other)
     {
-        Instantiate(ammoDrop,transform.position,Quaternion.identity); //your dropped item
+        if (other.gameObject.tag == "Player")
+            healthBar.health -= 10f;
+    }
 
-    }*/
+
+    /* void OnDestroy() //called, when enemy will be destroyed
+      {
+          Instantiate(ammoDrop,transform.position,Quaternion.identity); //your dropped item
+
+      }*/
 
 
 }

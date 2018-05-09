@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/prototype.unity
     guid: b1f833fa99e7e894798970e9ff89ca22
+  - enabled: 1
+    path: Assets/Level2.unity
+    guid: 38ded5107a87e0a44965aa469435ad2d

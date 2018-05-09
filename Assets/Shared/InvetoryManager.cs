@@ -15,7 +15,7 @@ public class InvetoryManager : MonoBehaviour
         if (logCollected == true)
             showGUI = true;
 
-        if (logCollected == true && Input.GetKey(KeyCode.P))
+        if (logCollected == true && Input.GetKey(KeyCode.E))
         MakeCampFire();
         
     }
@@ -23,7 +23,7 @@ public class InvetoryManager : MonoBehaviour
     void OnGUI()
     {
         if (showGUI == true)
-            GUI.Box(new Rect(200, 200, 200, 25), "Press P to Craft CampFire");
+            GUI.Box(new Rect(200, 200, 200, 25), "Press E to Craft CampFire");
     }
 
     void MakeCampFire()
