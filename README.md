@@ -6,3 +6,4 @@ Level: Since the whole game will take place on an island there are many abandone
 
 User Persona: Any gamers that enjoys playing any type of battle royal games similarly to FortNite and PUBG will enjoy this game for sure and also others who also enjoys the survival aspects like the Last of Us, Tomb Raiders or Metro where players would have to scavenge for things to simply survive. 
 
+Itch.io : https://khanhd95.itch.io/the-last-hope-it286?secret=hlz0Hjg9Pck8JmDbzugBIhOB8dk
